@@ -11,8 +11,8 @@ file.write("2")
 file.write("\n")
 
 
-for x in range(1,3):
-
+for x in range(1,5):
+	days,hours,minutes,sec = inc_time(days,hours,minutes,sec)
 	# sec_data
 	sub_frame = []
 	file.write(str(2))
